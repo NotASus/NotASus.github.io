@@ -5,6 +5,7 @@
 }
 body{
     height: 100vh;
+    background-color: rgb(153, 233, 227);
 }
 
 .main_grid {
@@ -15,14 +16,36 @@ body{
     height: 100%;
 }
 
-.lateral_bar {
-    grid-row: span 6 / span 6;
-    background-color: aqua;
-}
-
 .top_bar {
     grid-column: span 11 / span 11;
-    background-color: blueviolet;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1{
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 800;
+    font-size: 4vw;
+}
+h2{
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+}
+.main_title{
+    text-align: center;
+    width: 100%;
+}
+
+.main_subtitle{
+    text-align: center;
+    margin-left: 15%;
+}
+
+.lateral_bar {
+    grid-row: span 6 / span 6;
+   /* background-color: hsla(0, 14%, 78%, 0.25);*/
 }
 
 .main_container {
@@ -30,5 +53,6 @@ body{
     grid-row: span 5 / span 5;
     grid-column-start: 2;
     grid-row-start: 2;
-    background-color: yellow;
+    display: block;
+    /*background-color: rgb(255, 255, 255);*/
 }
