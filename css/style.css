@@ -1,0 +1,24 @@
+.main_grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 8px;
+}
+
+.lateral_bar {
+    grid-row: span 6 / span 6;
+    background-color: aqua;
+}
+
+.top_bar {
+    grid-column: span 11 / span 11;
+    background-color: blueviolet;
+}
+
+.main_container {
+    grid-column: span 11 / span 11;
+    grid-row: span 5 / span 5;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-color: yellow;
+}
