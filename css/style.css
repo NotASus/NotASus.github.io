@@ -18,6 +18,8 @@ body{
 
 .top_bar {
     grid-column: span 11 / span 11;
+    background: radial-gradient(#ffffff00 39%, #6d94e4 70%);
+    border-radius: 200px
 }
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
