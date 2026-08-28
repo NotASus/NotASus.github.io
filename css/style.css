@@ -47,7 +47,29 @@ h2{
 
 .lateral_bar {
     grid-row: span 6 / span 6;
-   /* background-color: hsla(0, 14%, 78%, 0.25);*/
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.lat-button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 800;
+    font-size: 1vw;
+}
+
+.button:hover:not(:disabled) {
+    background-color:#eee;
+}
+
+.lat-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
 }
 
 .main_container {
