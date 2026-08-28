@@ -1,0 +1,19 @@
+.main_title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 4vw;
+    width: 100%;
+}
+
+.main_subtitle{
+    text-align: center;
+    margin-left: 15%;
+    font-weight: 400;
+    font-size: 2vw;
+}
+
+.top_bar {
+    grid-column: span 11 / span 11;
+    background: radial-gradient(#ffffff00 39%, #6d94e4 70%);
+    border-radius: 200px
+}

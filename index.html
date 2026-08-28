@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/General.css">
+    <link rel="stylesheet" href="css/Menu_Bar.css">
+    <link rel="stylesheet" href="css/Top_Bar.css">
     <title>Portfolio</title>
 </head>
 <body>
     <div class="main_grid">
         <div class="lateral_bar">
-            <button class="lat-button active"><a href="Pages/Home.html" onClick ="pageChange(this)">Home</a></button>
-            <button class="lat-button"><a href="Pages/Contact.html" onClick="pageChange(this)">Contact</a></button>
+            <ul>
+                <li>
+                    <button type="button" class="lat-button active" data-src="Pages/Home.html" onclick="pageChange(this)" disabled>Home</button>
+                </li>
+                <li>
+                    <button type="button" class="lat-button" data-src="Pages/Contact.html" onclick="pageChange(this)">Contact</button>
+                </li>
+            </ul>
         </div>
         <div class="top_bar">
             <h1 class="main_title">Portfolio</h1>
@@ -22,4 +30,4 @@
     </div>
     <script src="script.js"></script>
 </body>
-</html>A
+</html>

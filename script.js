@@ -1,5 +1,5 @@
 function pageChange (button) {
-    document.getElementById("Lateral_bar").src = button.dataset.src;
+    document.getElementById("Icontainer").src = button.dataset.src;
 
     document.querySelectorAll(".lat-button").forEach(button => {
         button.disabled = false;

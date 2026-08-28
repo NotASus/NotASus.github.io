@@ -1,0 +1,32 @@
+.lateral_bar {
+    grid-row: span 6 / span 6;
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.lat-button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 800;
+    font-size: 1vw;
+}
+
+.lat-button:hover:not(:disabled) {
+  background-color: #eee;
+}
+
+.lat-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+ul > li {
+  list-style: none;
+  margin: 25px;
+  align-items: center;
+}
