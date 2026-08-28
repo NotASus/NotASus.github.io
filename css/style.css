@@ -72,6 +72,11 @@ h2{
     cursor: not-allowed;
 }
 
+#Icontainer {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
 .main_container {
     grid-column: span 11 / span 11;
     grid-row: span 5 / span 5;
