@@ -4,14 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/General.css">
-    <link rel="stylesheet" href="../css/Download_Button.css">
+    <link rel="stylesheet" href="../css/Download_Config.css">
+    <link rel="stylesheet" href="../css/Contact.css">
     <title>Contact Info</title>
 </head>
 <body>
-    <h1>CONTACT INFO</h1>
-    <p>Email: example@example.com</p>
-    <p>Phone: 123-456-7890</p>
-    <h1>CV and Resume</h1>
-    <a href="../Downloable_Items/CV_Mauricio_Valdes.pdf" download="CV_Mauricio_Valdes.pdf" target="_self" class="Dwld-button">Download CV (PDF)</a>
+<div class="parent">
+    <div class="Cont-title">
+        <h1>CONTACT INFO</h1>
+    </div>
+    <div class="Cont-info">
+        <p>Email: example@example.com</p>
+        <p>Phone: 123-456-7890</p>
+    </div>
+    <div class="Cv-resume-title">
+        <h1>CV and Resume</h1>
+    </div>
+    <div class="Cv-resume-buttons">
+        <a href="../Downloable_Items/CV_Mauricio_Valdes.pdf" download="CV_Mauricio_Valdes.pdf" target="_self" class="Dwld-button">
+            Download CV (PDF)
+        </a>
+        <a href="../Downloable_Items/Resume_Mauricio_Valdes.pdf" download="Resume_Mauricio_Valdes.pdf" target="_self" class="Dwld-button">
+            Download Resume (PDF)
+        </a>
+        <p class = "Chile-Time">Actual time in Chile: <strong id="Chile-Time"></strong></p>
+    </div>
+    <script src="../script.js"></script>
+</div>
 </body>
 </html>

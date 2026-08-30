@@ -1,0 +1,39 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 8px;
+}
+    
+.Cont-title {
+    grid-column: span 5 / span 5;
+    text-align: center;
+}
+
+.Cont-info {
+    grid-column: span 5 / span 5;
+    grid-row: span 3 / span 3;
+    grid-row-start: 2;
+}
+
+.Cv-resume-title {
+    grid-column: span 5 / span 5;
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 5;
+    text-align: center;
+}
+
+.Cv-resume-buttons {
+    display :grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: span 5 / span 5;
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+
+.Chile-Time {
+    grid-column: span 2;
+    text-align: center;
+}
+        
