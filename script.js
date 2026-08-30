@@ -24,7 +24,7 @@ function UpdateChileTime() {
     };
 const ActualTime = new Intl.DateTimeFormat('es-CL', option).format(new Date());
 const el = document.getElementById('Chile-Time');
-if (el) el.textContent = formatted;
+if (el) el.textContent = actualTime;
 }
 UpdateChileTime();
 setInterval(UpdateChileTime, 1000);
